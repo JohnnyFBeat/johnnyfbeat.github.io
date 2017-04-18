@@ -19,6 +19,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 <div id="map">
 
 </div>
+#mapid { height: 180px; }
 
 <script>
         var map = L.map('map').setView([34.00000, -118.260126], 14); 
