@@ -20,7 +20,7 @@ You will find this post in your `_posts` directory. Go ahead and edit it and re-
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts.
 
-<div id="map" class="map leaflet-container" style="height: 200px; position:relative; background-color:red;">
+<div id="map" class="map leaflet-container" style="height: 400px; position:relative; background-color:red;">
 </div>
 <script>
     // create the map object and set the cooridnates of the initial view:
