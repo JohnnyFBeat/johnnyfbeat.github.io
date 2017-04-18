@@ -24,7 +24,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 <script>
 var map = L.map('map').setView([51.4833, -3.1833], 10);
 
-L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoiam9obm55ZmJlYXQiLCJhIjoiY2oxbzF6emc2MDAzMzJxbW5pMmsycW10aSJ9.Daey0MGA6uFQ5XWAW7BV0w', {
+L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{1}/{1}/{0}?access_token=pk.eyJ1Ijoiam9obm55ZmJlYXQiLCJhIjoiY2oxbzF6emc2MDAzMzJxbW5pMmsycW10aSJ9.Daey0MGA6uFQ5XWAW7BV0w', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18
 }).addTo(map);
