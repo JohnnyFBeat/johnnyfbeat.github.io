@@ -21,8 +21,6 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 
 
-<div id="map" class="map leaflet-container" style="height: 150px; position:relative; ">
-</div>
 
  <script>
     // create the map object and set the cooridnates of the initial view:
