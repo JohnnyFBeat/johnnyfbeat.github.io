@@ -16,6 +16,23 @@ You will find this post in your `_posts` directory. Go ahead and edit it and re-
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts.
 
+<div id="map">
+
+</div>
+
+<script>
+        var map = L.map('map').setView([34.00000, -118.260126], 14); 
+
+        mapLink =
+'<a href="http://openstreetmap.org">OpenStreetMap</a>'; L.tileLayer(
+'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: 'Map data &copy; ' + mapLink, maxZoom: 18, }).addTo(map);
+
+
+        var marker = L.marker([34.063298, -118.260126]) .addTo(map).bindPopup("<b>Blah Blah Blah</b><br /><a href='http://www.cnn.com'>Additional Information</a><br />").openPopup();
+
+
+</script>
+
 ### Configuration
 
 To change site settings, edit the `_config.yml` file found in the root of your repository. Anything under 'Site Settings' can be tweaked to your liking.
