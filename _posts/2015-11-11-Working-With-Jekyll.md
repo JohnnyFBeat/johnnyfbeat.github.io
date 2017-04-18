@@ -20,15 +20,19 @@ You will find this post in your `_posts` directory. Go ahead and edit it and re-
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts.
 
-<div id="mapid" style="height: 400px;background-color: red"></div>
+<div id="mapid" style="width: 600px; height: 400px;background-color:green"></div>
 <script>
-var mymap = L.map('mapid').setView([51.505, -0.09], 13);
 
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoiam9obm55ZmJlYXQiLCJhIjoiY2oxbzF6emc2MDAzMzJxbW5pMmsycW10aSJ9.Daey0MGA6uFQ5XWAW7BV0w', {
+	var mymap = L.map('mapid').setView([51.505, -0.09], 13);
 
-attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    id: 'mapbox.streets'
-}).addTo(mymap);
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoiam9obm55ZmJlYXQiLCJhIjoiY2oxbzF6emc2MDAzMzJxbW5pMmsycW10aSJ9.Daey0MGA6uFQ5XWAW7BV0w', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+		id: 'mapbox.streets'
+	}).addTo(mymap);
+
 </script>
 
 
