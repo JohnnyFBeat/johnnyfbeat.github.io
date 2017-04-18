@@ -21,7 +21,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 
 
-<div id="map" class="map leaflet-container" style="height: 150px; position:relative; backround-color: red;">
+<div id="map" class="map leaflet-container" style="height: 150px; position:relative; background-color: red;">
 </div>
 
 
