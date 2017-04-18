@@ -22,16 +22,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 <div id="map" class="map leaflet-container" style="height: 150px; position:relative;">
 </div>
 
-<script>
-    // create the map object and set the cooridnates of the initial view:
-    var map = L.map('map').setView([51.4833, -3.1833], 10);
 
-    // create the tile layer with correct attribution:
-    L.tileLayer('http://{s}.tiles.mapbox.com/v3/jamesg87.goac2bf1/{z}/{x}/{y}.png', {
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-        maxZoom: 18
-    }).addTo(map);
-    </script>
 
 
 ### Configuration
