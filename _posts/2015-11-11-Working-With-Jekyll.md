@@ -12,6 +12,8 @@ image:
   creditlink: null
 published: true
 ---
+<div id="map" class="map leaflet-container" style="height: 150px; position:relative; background-color:red;">
+</div>
 
 ### Posts
 
