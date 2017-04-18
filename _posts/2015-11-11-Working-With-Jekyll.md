@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Working With Jekyll
+title: Eiffel Bar
 categories: journal
 tags:
   - documentation
   - sample
 image:
-  feature: bag.jpg
-  teaser: bag-teaser.jpg
+  feature: eiffel.jpg
+  teaser: eiffel-teaser.jpg
   credit: null
   creditlink: null
 published: true
