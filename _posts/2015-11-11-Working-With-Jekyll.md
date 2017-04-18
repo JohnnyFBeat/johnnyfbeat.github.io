@@ -21,7 +21,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 
 
-<div id="map" class="map leaflet-container" style="height: 150px; position:relative; background-color: red;">
+<div id="map" class="map leaflet-container" style="height: 150px; position:relative; ">
 </div>
 
  <script>
@@ -33,7 +33,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
         maxZoom: 18
     }).addTo(map);
-    </script>
+ </script>
 
 ### Configuration
 
