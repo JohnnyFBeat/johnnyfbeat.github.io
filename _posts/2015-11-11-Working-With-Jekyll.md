@@ -6,8 +6,8 @@ tags:
   - documentation
   - sample
 image:
-  feature: eiffel.jpg
-  teaser: eiffel-teaser.jpg
+  feature: eiffel.JPG
+  teaser: eiffel-teaser.JPG
   credit: null
   creditlink: null
 published: true
