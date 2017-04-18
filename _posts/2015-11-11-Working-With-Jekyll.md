@@ -30,7 +30,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
 			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
 			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-		id: 'mapbox.light'
+		id: 'mapbox.streets'
 	}).addTo(mymap);
 
 </script>
