@@ -8,12 +8,12 @@ github:
   url:               #"https://lenpaul.github.io/Lagrange"
 author:
   name:              "Johnny Beat"
-  email:             "l.nguyen.paul@gmail.com"
-  twitter:           "paululele"
-  instagram:         "paululele"
-  github:            "lenpaul"
-  facebook:          "Le.Paul.94"
-  linkedin:          "lenpaul"
+  email:             "florianloeser@gmail.com"
+ # twitter:           "paululele"
+ # instagram:         "paululele"
+ # github:            "lenpaul"
+#  facebook:          "Le.Paul.94"
+#  linkedin:          "lenpaul"
 navigation:
 - title: About
   url: /about
