@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Eiffel Bar
-categories: journal
+categories:
+  - journal
+  - outdoor
 tags:
   - documentation
   - sample
