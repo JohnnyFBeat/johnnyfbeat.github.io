@@ -126,6 +126,7 @@ blockquote p {
   padding-bottom: 0.5rem;
   margin-bottom: 4rem;
   font-family: "Quattrocento Sans", sans-serif;
+  background-color:red;	
 }
 
 .masthead a:hover {
